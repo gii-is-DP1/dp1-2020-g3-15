@@ -7,6 +7,7 @@
 <petclinic:layout pageName="home">
     <h2><fmt:message key="welcome"/></h2>
     <div class="row">
+    <img src="logoPNG_3.png"/>
     <h2>Proyecto ${title}</h2>
     <p><h2>Grupo ${group}</h2></p>
     <p><ul>
@@ -19,6 +20,10 @@
         <div class="col-md-12">
             <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
             <img class="img-responsive" src="${petsImage}"/>
+        </div>
+        <div class="col-md-13">
+            <spring:url value="/resources/images/logoPNG_3.png" htmlEscape="true" var="logoImage"/>
+            <img class="img-responsive" src="${logoImage}"/>
         </div>
     </div>
 </petclinic:layout>

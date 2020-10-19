@@ -31,7 +31,17 @@
         <spring-format.version>0.0.19</spring-format.version>
 
     </properties>
-
+	<developers>
+		<developer>
+			<id>Manuel</id>
+			<name>Manuel</name>
+			<email>manguecor@alum.us.es</email>
+			<url>http://www.tmht.com/manuel</url>
+			<roles>
+				<role>leader</role>
+			</roles>
+		</developer>
+	</developers>
     <dependencies>
         <!-- Spring and Spring Boot dependencies -->
         <dependency>
